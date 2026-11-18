@@ -1,0 +1,140 @@
+/* Basic page settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #fff9f2;
+  color: #3b3028;
+}
+
+/* First presentation slide */
+.intro-slide {
+  min-height: 100vh;
+  min-height: 100svh;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  align-items: center;
+  gap: 60px;
+  padding: 80px 8% 110px;
+}
+
+/* Left-side content */
+.label {
+  margin-bottom: 28px;
+  color: #8b5e3c;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(42px, 4.8vw, 76px);
+  font-weight: 400;
+  line-height: 1.12;
+  letter-spacing: -2px;
+}
+
+h1 span {
+  display: block;
+  margin-top: 12px;
+  color: #8b5e3c;
+  font-size: 0.72em;
+  letter-spacing: -1px;
+}
+
+.tagline {
+  margin-top: 25px;
+  color: #75665a;
+  font-size: clamp(17px, 1.6vw, 22px);
+  line-height: 1.6;
+}
+
+/* Presenter details */
+.presenters {
+  margin-top: 38px;
+  padding-left: 18px;
+  border-left: 3px solid #b17a50;
+}
+
+.presented-by {
+  margin-bottom: 8px;
+  color: #75665a;
+  font-size: 14px;
+}
+
+.names {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.college {
+  margin-top: 6px;
+  color: #75665a;
+  font-size: 15px;
+}
+
+/* Navigation button */
+.start-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 25px;
+  margin-top: 38px;
+  padding: 16px 25px;
+  border: 2px solid #8b5e3c;
+  border-radius: 10px;
+  background: #8b5e3c;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.start-button:hover {
+  background: #70482d;
+  transform: translateY(-3px);
+}
+
+.start-button:focus-visible {
+  outline: 3px solid #3b3028;
+  outline-offset: 5px;
+}
+
+/* Right-side photo */
+.intro-visual {
+  width: 100%;
+  max-width: 470px;
+  justify-self: center;
+}
+
+.photo-frame {
+  padding: 14px 14px 0;
+  border: 1px solid #e8d8c8;
+  border-radius: 180px 180px 20px 20px;
+  background: #ffffff;
+  box-shadow: 0 20px 50px rgba(59, 48, 40, 0.1);
+}
+
+.cat-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  border-radius: 170px 170px 12px 12px;
+  object-fit: cover;
+}
+
+.photo-caption {
+  padding: 20px 8px;
+  color: #8b5e3c;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  font-style: italic;
+  text-align: center;
+}
