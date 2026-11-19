@@ -60,27 +60,6 @@ a:focus-visible {
   outline-offset: 4px;
 }
 
-@media (max-width: 600px) {
-  h1 {
-    font-size: 30px;
-  }
-
-  p,
-  li {
-    font-size: 18px;
-  }
-}
-/* Bottom of slide */
-.slide-footer {
-
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  padding-top: 18px;
-  border-top: 1px solid #e8d8c8;
-  color: #75665a;
-  font-size: 13px;
-}
 
 .page-number {
   position: fixed;
@@ -89,4 +68,8 @@ a:focus-visible {
   margin: 0;
   font-size: 14px;
   color: #75665a;
+}
+.project-link {
+  text-align: center;
+
 }
